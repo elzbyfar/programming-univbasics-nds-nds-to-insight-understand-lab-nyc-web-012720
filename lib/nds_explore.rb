@@ -8,7 +8,13 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles(nds)
-  nds[0]
+  x = 0 
+  while x < nds.length do 
+    y = 0 
+    while y < nds[x].length do 
+      puts nds[x][0][:movies]
+    end 
+  end
 end
 
 
