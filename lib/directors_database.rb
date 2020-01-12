@@ -7,4 +7,4 @@ def directors_database
 end
 
 
-directors_database
+pp directors_database
