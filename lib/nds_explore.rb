@@ -12,7 +12,7 @@ def print_first_directors_movie_titles(nds)
  while x < nds.length do 
    y = 0 
    while y < nds[x].length do 
-     puts nds[x][:movies][y].class
+     puts nds[x][:movies][y][]
      y+=1 
    end 
    x+=1 
