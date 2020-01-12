@@ -17,4 +17,4 @@ end
 
 
 # pretty_print_nds(directors_database)
-print_first_directors_movie_titles(directors_database)
+# print_first_directors_movie_titles(directors_database)
