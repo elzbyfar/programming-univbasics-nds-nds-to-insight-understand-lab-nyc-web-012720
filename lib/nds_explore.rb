@@ -9,8 +9,8 @@ end
 
 def print_first_directors_movie_titles(nds)
  x = 0 
- while x < nds.length do 
-     puts nds[0][:movies][x]
+ while x < nds[0][:movies].length do 
+     puts nds[0][:movies][x][:title]
    x+=1 
  end
 end
